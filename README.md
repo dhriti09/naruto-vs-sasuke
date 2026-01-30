@@ -1,27 +1,23 @@
-# naruto-vs-sasuke
-## Project OverviewThe game allows a player to control Naruto to fight against an automated Sasuke (enemy). It includes mechanics for movement, jumping, and projectile combat (shurikens) with a visual health bar system for both characters.
+# Naruto vs Sasuke: 2D Combat Game ⚔️
 
-### Key Features
-Sprite Animation: Uses image arrays to create smooth walking animations for both characters.
-Projectile System: A weapons class handles the physics and life-cycle of shurikens thrown by the player.
-Automated AI: Sasuke moves back and forth along a predefined path, acting as a dynamic target/opponent.
-Collision Physics: Real-time hitbox calculation to detect when a shuriken hits the enemy or when characters collide.
-Game States: Includes logic for health depletion, "Game Over" screens, and victory conditions for both sides.
-SFX Integration: Integrated sound effects for hits and background music support.
+An interactive 2D fighting game developed using Python and the Pygame library. This project features the iconic rivalry between Naruto and Sasuke, complete with custom animations, movement mechanics, and combat logic.
 
-## Technical Implementation
-### Game Mechanics
-Physics & Movement: * Naruto features a quadratic jump formula: $y = 0.5 \cdot \text{jumpheight}^2$.Directional tracking determines which way sprites face and projectiles travel.
-Health Bars: * Dynamic health bars are rendered using pygame.draw.rect.Naruto’s bar fills left-to-right, while Sasuke’s bar is designed to deplete from right-to-left.
-Class Structure:
-player(): Manages user input, state, and drawing.
-enemy(): Handles the automated patrol logic and health.
-weapons(): Manages the velocity and hitboxes of shurikens.
-## Controls
-Left/Right Arrows: Move Naruto.
-Up Arrow: Jump.
-Spacebar: Throw Shuriken.
-## Requirements
-Python 3.x
-Pygame Library: Install via pip install pygame.
-Asset Folder: Requires a pics/ directory containing the specific .png sprites and .wav sound files referenced in the code.
+## 🎮 Features
+* **Classic Characters:** Play as Naruto or Sasuke with unique sprite animations.
+* **Dynamic Combat:** Includes basic attacks, special moves, and health bars for both players.
+* **Keyboard Controls:** Smooth movement and attack keys for local multiplayer or single-player testing.
+* **Custom Assets:** Utilizes specific character frames (NL1-NL4, NR1-NR3) for realistic movement.
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Library:** Pygame
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have Python installed on your system. You will also need the Pygame library.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/dhriti09/naruto-vs-sasuke.git](https://github.com/dhriti09/naruto-vs-sasuke.git)
