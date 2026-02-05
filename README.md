@@ -20,4 +20,4 @@ Make sure you have Python installed on your system. You will also need the Pygam
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/dhriti09/naruto-vs-sasuke.git](https://github.com/dhriti09/naruto-vs-sasuke.git)
+   git clone [https://github.com/dhriti09/naruto-vs-sasuke.git]
